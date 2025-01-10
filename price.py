@@ -39,9 +39,9 @@ def main():
     global xml_root
     global detailed
 
-    input_file = args.file  # "s-mips.circ"
+    input_file = args.file  # "s-mips-template.circ"
     output_file = args.output  # "result.json"
-    circuit_name = args.circuit_name  # "S-MIPS"
+    circuit_name = args.circuit_name  # "Datapath"
     ensure_limit = args.limit  # 100
     detailed = args.detailed  # False
 
