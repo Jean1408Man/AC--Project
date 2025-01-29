@@ -2919,7 +2919,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <circ-port height="8" pin="110,480" width="8" x="86" y="56"/>
       <circ-port height="8" pin="110,520" width="8" x="106" y="56"/>
       <circ-port height="10" pin="600,1980" width="10" x="175" y="185"/>
-      <circ-port height="8" pin="110,560" width="8" x="106" y="66"/>
+      <circ-port height="8" pin="110,560" width="8" x="126" y="56"/>
       <circ-anchor facing="east" height="6" width="6" x="177" y="147"/>
     </appear>
     <wire from="(1340,1340)" to="(1340,1360)"/>
@@ -9828,10 +9828,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(100,780)" to="(150,780)"/>
     <wire from="(1210,50)" to="(1210,60)"/>
     <wire from="(1200,40)" to="(1200,50)"/>
+    <wire from="(1250,50)" to="(1250,60)"/>
     <wire from="(1140,820)" to="(1140,830)"/>
     <wire from="(310,200)" to="(350,200)"/>
     <wire from="(190,790)" to="(190,820)"/>
     <wire from="(1480,80)" to="(1490,80)"/>
+    <wire from="(1250,50)" to="(1260,50)"/>
     <wire from="(340,240)" to="(370,240)"/>
     <wire from="(1210,430)" to="(1240,430)"/>
     <wire from="(430,630)" to="(440,630)"/>
@@ -9902,6 +9904,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(1210,430)" to="(1210,450)"/>
     <wire from="(440,620)" to="(440,630)"/>
     <wire from="(1210,230)" to="(1210,240)"/>
+    <wire from="(1260,40)" to="(1260,50)"/>
     <wire from="(1170,350)" to="(1170,360)"/>
     <wire from="(1290,390)" to="(1340,390)"/>
     <wire from="(1430,490)" to="(1440,490)"/>
@@ -10531,6 +10534,10 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(1190,540)" name="Constant">
       <a name="width" val="5"/>
       <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(1260,40)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="en"/>
     </comp>
     <comp lib="0" loc="(1100,810)" name="Tunnel">
       <a name="facing" val="east"/>
