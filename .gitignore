@@ -1,2 +1,3 @@
 settings.json
-test_out/
+# Ignorar archivos generados en tests-out
+tests-out/Bank*
