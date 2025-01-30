@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import os
 import subprocess
 import optparse
@@ -34,7 +35,7 @@ class TestCase:
     def run(self, logisim: str, circ: str, template: str) -> None:
         result = ""
         cmd = [
-            logisim,
+            "/mnt/c/Users/hp/Downloads/logisim-win-2.7.1.exe",
             template,
             "-tty",
             "halt,tty,speed",
